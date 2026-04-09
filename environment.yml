@@ -1,0 +1,14 @@
+name: tweetclassify
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - datasets
+    - transformers
+    - scikit-learn
+    - ollama
+    - jupyter
+    - torch
